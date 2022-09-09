@@ -106,7 +106,7 @@ function rgbToHsl(inputColor) {
 
 // 3 . Function to display those values in the DOM.
 function displayRgb(rgbValue) {
-  const part = rgbValue.slice(4, 14); //Slice to keep the part of the RGB that I want (Just numbers from the String)
+  const part = rgbValue.slice(4, -1); //Slice to keep the part of the RGB that I want (Just numbers from the String)
   const rgb = part.replace(/,/g, ""); //Removes commas from slice.
   const spaces = rgb.split(" "); //Split all the spaces
 
