@@ -1,0 +1,55 @@
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column;
+}
+
+.picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100px; */
+  /* height: 100px; */
+}
+
+.picker input {
+  width: 100%;
+  height: 240px;
+  /* padding: 2rem; */
+}
+
+#colors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column;
+}
+
+.rgb {
+  grid-column: 1 / 2;
+  /* display: grid; */
+}
+
+.hsl {
+  grid-column: 2 / 3;
+  /* display: grid; */
+}
+
+.hex {
+  grid-column: 3 / 4;
+  /* display: grid; */
+}
+
+.rgb-title,
+.hsl-title,
+.hex-title {
+  /* margin: 0; */
+  padding-top: 4rem;
+}
+
+ul li {
+  display: flex;
+  flex-flow: row;
+  padding: 0.25rem;
+  letter-spacing: 2px;
+}

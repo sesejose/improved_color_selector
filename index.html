@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Improved Color Selector</title>
+  </head>
+  <body>
+    <main>
+      <section id="wrapper">
+        <h1>IMPROVED COLOR SELECTOR</h1>
+        <div class="container">
+          <div class="picker"><input type="color" /></div>
+          <!--**********   GRID   ***************-->
+
+          <!--**********   COLORS   ***************-->
+          <div id="colors">
+            <!--**********   RGB   ***************-->
+            <div class="rgb_in_grid">
+              <div class="rgb-title">RGB</div>
+              <ul class="rgb_ul">
+                <li class="red">
+                  <div>R:</div>
+                  <div class="r">255</div>
+                </li>
+                <li class="green">
+                  <div>G:</div>
+                  <div class="g">255</div>
+                </li>
+                <li class="blue">
+                  <div>B:</div>
+                  <div class="b">255</div>
+                </li>
+              </ul>
+            </div>
+            <!--**********   HSL   ***************-->
+            <div class="hsl_in_grid">
+              <div class="hsl-title">HSL</div>
+              <ul class="hsl_ul">
+                <li class="hue">
+                  <div>H:</div>
+                  <div class="h">100</div>
+                </li>
+                <li class="sat">
+                  <div>S:</div>
+                  <div class="s">100</div>
+                </li>
+                <li class="lum">
+                  <div>L:</div>
+                  <div class="l">100</div>
+                </li>
+              </ul>
+            </div>
+            <!--**********   HEX   ***************-->
+            <div class="hex_in_grid">
+              <div class="hex-title">HEX</div>
+              <ul class="hex_ul">
+                <li class="hex_li">
+                  <div>HEX:</div>
+                  <div class="hex">#000000</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--END COLORS-->
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
